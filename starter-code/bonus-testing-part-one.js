@@ -50,7 +50,7 @@ var nextAnimal;
       nextAnimal variable   :-)
       Your code begins on the next line: */
 
-nextAnimal = favoriteAnimals[Math.floor(Math.random() * (favoriteAnimals.length - 0)) + 0];
+nextAnimal = favoriteAnimals[Math.floor(Math.random() * favoriteAnimals.length)];
 
   /* TODO:
       Write a test! Use the `expect()` function we defined earlier to ensure
