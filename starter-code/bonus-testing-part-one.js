@@ -62,5 +62,6 @@ nextAnimal = favoriteAnimals[Math.floor(Math.random() * (favoriteAnimals.length 
 
 expect(
   favoriteAnimals.includes(nextAnimal),
-  ''
-)
+  'next animal should be the elephants, penguins, eagles or camels, but currently is ' + nextAnimal,
+  'nextAnimal was one of your favourite animals! You saw the ' + nextAnimal
+);
